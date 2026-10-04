@@ -1,0 +1,56 @@
+[
+  {
+    "notebook": "01_ct_images_and_data.ipynb",
+    "status": "passed",
+    "seconds": 8.300853000000643,
+    "code_cells": 4
+  },
+  {
+    "notebook": "02_radon_and_sinograms.ipynb",
+    "status": "passed",
+    "seconds": 26.664673599996604,
+    "code_cells": 3
+  },
+  {
+    "notebook": "03_backprojection_and_fbp.ipynb",
+    "status": "passed",
+    "seconds": 24.47327490000316,
+    "code_cells": 3
+  },
+  {
+    "notebook": "04_sdct_ldct_photon_simulation.ipynb",
+    "status": "passed",
+    "seconds": 32.33365069999854,
+    "code_cells": 3
+  },
+  {
+    "notebook": "05_gaussian_noise_analysis.ipynb",
+    "status": "passed",
+    "seconds": 38.97214669999812,
+    "code_cells": 4
+  },
+  {
+    "notebook": "06_sdct_ldct_sinogram_comparison.ipynb",
+    "status": "passed",
+    "seconds": 45.856574200006435,
+    "code_cells": 3
+  },
+  {
+    "notebook": "07_fbp_filter_comparison.ipynb",
+    "status": "passed",
+    "seconds": 110.1488129000063,
+    "code_cells": 3
+  },
+  {
+    "notebook": "08_fourier_dft_vs_fft.ipynb",
+    "status": "passed",
+    "seconds": 34.59159549999458,
+    "code_cells": 4
+  },
+  {
+    "notebook": "09_metrics_and_report_figures.ipynb",
+    "status": "passed",
+    "seconds": 46.37101590000384,
+    "code_cells": 3
+  }
+]

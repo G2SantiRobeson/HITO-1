@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+outputs/.jupyter/
+outputs/.ipython/
+outputs/.matplotlib/
+data/**/*.dcm
+*.zip
+.DS_Store

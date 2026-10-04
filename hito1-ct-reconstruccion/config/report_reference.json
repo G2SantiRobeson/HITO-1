@@ -1,0 +1,31 @@
+{
+  "source": "Resultados numéricos del informe actual proporcionados explícitamente por el autor en esta conversación; independientes de los CSV históricos del repositorio.",
+  "provided_date": "2026-10-01",
+  "case_order": ["sdct_sin_ruido", "ldct_sin_ruido", "sdct_gaussiano", "ldct_gaussiano"],
+  "case_labels": {
+    "sdct_sin_ruido": "SDCT sin ruido añadido",
+    "ldct_sin_ruido": "LDCT sin ruido añadido",
+    "sdct_gaussiano": "SDCT con ruido añadido",
+    "ldct_gaussiano": "LDCT con ruido añadido"
+  },
+  "filter_rmse_hu": {
+    "ramp": ["31.890", "68.899", "78.906", "99.700"],
+    "shepp-logan": ["36.093", "75.494", "68.648", "95.403"],
+    "cosine": ["45.174", "90.579", "58.673", "98.020"],
+    "hamming": ["52.658", "99.666", "60.278", "103.902"],
+    "hann": ["54.638", "102.789", "60.983", "106.312"]
+  },
+  "ramp_metrics_hu": {
+    "sdct_sin_ruido": {"MAE_HU": "22.925", "RMSE_HU": "31.890", "MAX_HU": "355.433"},
+    "ldct_sin_ruido": {"MAE_HU": "53.304", "RMSE_HU": "68.899", "MAX_HU": "446.964"},
+    "sdct_gaussiano": {"MAE_HU": "62.676", "RMSE_HU": "78.906", "MAX_HU": "435.844"},
+    "ldct_gaussiano": {"MAE_HU": "79.012", "RMSE_HU": "99.700", "MAX_HU": "612.323"}
+  },
+  "fourier": [
+    {"stage": "reconstrucciones_HU", "metric": "maximo", "reported": "3.342e-11", "unit": "HU"},
+    {"stage": "reconstrucciones_HU", "metric": "media", "reported": "7.289e-13", "unit": "HU"},
+    {"stage": "reconstrucciones_HU", "metric": "rmse", "reported": "9.590e-13", "unit": "HU"},
+    {"stage": "sinogramas_filtrados", "metric": "maximo", "reported": "8.69e-13", "unit": "Suma Radon"}
+  ]
+}
+

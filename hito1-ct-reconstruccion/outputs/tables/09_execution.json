@@ -1,0 +1,63 @@
+{
+  "parameters": {
+    "num_angles": 512,
+    "sigma_gaussian": 1.0,
+    "seed": 42,
+    "filter_name": "ramp",
+    "visual_amplification": 5.0,
+    "relative_threshold_fraction": 0.01,
+    "relative_display_max_pct": 20.0,
+    "fourier_atol": 1e-09,
+    "fourier_rtol": 1e-10,
+    "benchmark_sizes": [
+      64,
+      128,
+      256,
+      512,
+      1024,
+      2048
+    ],
+    "benchmark_repeats": 5,
+    "photon_simulation": {
+      "low_dose_fraction": 0.1,
+      "config": {
+        "calibration_a": 0.015,
+        "calibration_b": 0.1002,
+        "flux_per_mas": 1000.0,
+        "incident_photons_per_mas": 2630.0,
+        "projection_scale": 500.0,
+        "gaussian_scale": 0.05,
+        "count_floor": 1.0,
+        "filter_name": "hann",
+        "circle": false,
+        "num_angles": null
+      }
+    }
+  },
+  "normalization_hu": [
+    -1024.0,
+    1616.0
+  ],
+  "image_shape": [
+    512,
+    512
+  ],
+  "sinogram_shape": [
+    725,
+    512
+  ],
+  "input_sha256": {
+    "sdct": "86196a8ae87a0860c327542c47dfe756781f3b9346438c0a364e1fa54fa34013",
+    "ldct": "0463186a016e9bddfd86617d56a435ae4fbb1655b8af9ccfea9b371db0259779"
+  },
+  "versions": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "scikit-image": "0.26.0",
+    "pydicom": "3.0.2",
+    "matplotlib": "3.11.2"
+  },
+  "python": "3.12.14",
+  "circle": false,
+  "interpolation": "linear"
+}

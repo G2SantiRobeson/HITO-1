@@ -1,0 +1,48 @@
+{
+  "metrics": {
+    "espectros_complejos": {
+      "maximo": 5.144878968614994e-11,
+      "media": 1.8483526678154733e-12,
+      "rmse": 2.1407515222257176e-12
+    },
+    "sinogramas_filtrados": {
+      "maximo": 8.5804974236936e-13,
+      "media": 6.300258639317767e-15,
+      "rmse": 3.451945314089267e-14
+    },
+    "reconstrucciones_normalizadas": {
+      "maximo": 1.2562867413024037e-14,
+      "media": 2.740985458644477e-16,
+      "rmse": 3.586021720791744e-16
+    },
+    "fft_vs_pipeline_normalizado": {
+      "maximo": 1.8540724511240114e-14,
+      "media": 4.809161448833557e-15,
+      "rmse": 6.245911459589047e-15
+    },
+    "reconstrucciones_HU": {
+      "maximo": 3.3082869776990265e-11,
+      "media": 7.236043361724676e-13,
+      "rmse": 9.487940765596969e-13
+    }
+  },
+  "checks": {
+    "filtrado_equivalente": true,
+    "reconstruccion_equivalente": true,
+    "geometria_y_filtro_equivalentes_al_pipeline": true
+  },
+  "times": {
+    "matriz_y_filtro_comun_s": 0.1126664819994403,
+    "filtrado_dft_s": 0.1486364929996853,
+    "filtrado_fft_s": 0.04207273100018938,
+    "retroproyeccion_dft_s": 0.7008413380008278,
+    "retroproyeccion_fft_s": 0.6871032540002489
+  },
+  "padding_n": 2048,
+  "atol": 1e-09,
+  "rtol": 1e-10,
+  "imaginary_residual": {
+    "dft": 2.8477220581635265e-14,
+    "fft": 1.837364535682083e-14
+  }
+}

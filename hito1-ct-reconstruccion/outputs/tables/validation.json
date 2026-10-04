@@ -1,0 +1,13 @@
+{
+  "current_report": {
+    "status": "failed",
+    "reference_values": 36,
+    "comparisons": 36,
+    "passed": 32,
+    "failed": 4,
+    "sources": [
+      "saved"
+    ],
+    "report": "VALIDATION_REPORT.md"
+  }
+}

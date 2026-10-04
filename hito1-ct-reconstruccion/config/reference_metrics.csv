@@ -1,0 +1,6 @@
+case,MAE_HU,RMSE_HU,MAX_HU
+sdct_sin_ruido,22.925,31.890,355.433
+ldct_sin_ruido,53.304,68.899,446.964
+sdct_gaussiano,62.676,78.906,435.844
+ldct_gaussiano,79.012,99.700,612.323
+

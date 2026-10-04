@@ -1,0 +1,11 @@
+# Python 3.12.14; versiones disponibles y verificadas en el entorno original.
+numpy==2.5.3
+scipy==1.18.1
+scikit-image==0.26.0
+pydicom==3.0.2
+matplotlib==3.11.2
+nbformat==5.11.1
+nbclient==0.11.0
+ipykernel==7.3.0
+# La interfaz JupyterLab se instala con requirements-notebook.txt.
+

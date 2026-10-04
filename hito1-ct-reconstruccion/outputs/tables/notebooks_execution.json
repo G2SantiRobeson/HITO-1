@@ -1,0 +1,56 @@
+[
+  {
+    "notebook": "01_ct_images_and_data.ipynb",
+    "status": "passed",
+    "seconds": 2.305855870000414,
+    "execution": "independent Python process"
+  },
+  {
+    "notebook": "02_radon_and_sinograms.ipynb",
+    "status": "passed",
+    "seconds": 9.332257713999752,
+    "execution": "independent Python process"
+  },
+  {
+    "notebook": "03_backprojection_and_fbp.ipynb",
+    "status": "passed",
+    "seconds": 8.090048819999538,
+    "execution": "independent Python process"
+  },
+  {
+    "notebook": "04_sdct_ldct_photon_simulation.ipynb",
+    "status": "passed",
+    "seconds": 10.859775554999942,
+    "execution": "independent Python process"
+  },
+  {
+    "notebook": "05_gaussian_noise_analysis.ipynb",
+    "status": "passed",
+    "seconds": 12.131999972999438,
+    "execution": "independent Python process"
+  },
+  {
+    "notebook": "06_sdct_ldct_sinogram_comparison.ipynb",
+    "status": "passed",
+    "seconds": 19.476426819000153,
+    "execution": "independent Python process"
+  },
+  {
+    "notebook": "07_fbp_filter_comparison.ipynb",
+    "status": "passed",
+    "seconds": 34.89990660799958,
+    "execution": "independent Python process"
+  },
+  {
+    "notebook": "08_fourier_dft_vs_fft.ipynb",
+    "status": "passed",
+    "seconds": 10.593245062000278,
+    "execution": "independent Python process"
+  },
+  {
+    "notebook": "09_metrics_and_report_figures.ipynb",
+    "status": "passed",
+    "seconds": 15.586932746999992,
+    "execution": "independent Python process"
+  }
+]

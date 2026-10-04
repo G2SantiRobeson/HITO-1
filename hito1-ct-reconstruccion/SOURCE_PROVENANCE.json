@@ -1,0 +1,14 @@
+{
+  "source_repository": "https://github.com/G2SantiRobeson/tesis-modelos-difusion",
+  "source_directory": "hito1-mini-tesis",
+  "source_commit": "3ff02911620c8aaca0f6c3d7ac97dedf9f266465",
+  "prepared_date": "2026-10-04",
+  "scientific_algorithms_changed": false,
+  "changes": [
+    "Rutas DICOM locales",
+    "Arranque de notebooks independiente del nombre de carpeta",
+    "Ejecutor alternativo sin sockets Jupyter, mismas celdas en procesos nuevos",
+    "Validador portable separado de la comparación literal de 36 cifras",
+    "Referencias originales preservadas y recálculo independiente"
+  ]
+}

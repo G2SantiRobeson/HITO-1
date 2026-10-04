@@ -1,0 +1,37 @@
+{
+  "sdct": "../data/sdct/1-250.dcm",
+  "ldct": "../data/ldct/1-250.dcm",
+  "num_angles": 512,
+  "sigma_gaussian": 1.0,
+  "seed": 42,
+  "filter_name": "ramp",
+  "visual_amplification": 5.0,
+  "relative_threshold_fraction": 0.01,
+  "relative_display_max_pct": 20.0,
+  "fourier_atol": 1e-09,
+  "fourier_rtol": 1e-10,
+  "benchmark_sizes": [
+    64,
+    128,
+    256,
+    512,
+    1024,
+    2048
+  ],
+  "benchmark_repeats": 5,
+  "photon_simulation": {
+    "low_dose_fraction": 0.1,
+    "config": {
+      "calibration_a": 0.015,
+      "calibration_b": 0.1002,
+      "flux_per_mas": 1000.0,
+      "incident_photons_per_mas": 2630.0,
+      "projection_scale": 500.0,
+      "gaussian_scale": 0.05,
+      "count_floor": 1.0,
+      "filter_name": "hann",
+      "circle": false,
+      "num_angles": null
+    }
+  }
+}
