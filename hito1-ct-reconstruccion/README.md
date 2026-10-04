@@ -59,16 +59,16 @@ Los notebooks pueden ejecutarse aunque se cambie el nombre del repositorio.
 | `validate.py --reference --recompute-reference` | También recalcula las 36 cifras desde los DICOM sin reemplazar salidas científicas. |
 | `validate.py --originals` | Auditoría histórica que necesita el repositorio antiguo; no usar para esta copia independiente. |
 
-En el recálculo Linux de esta preparación coincidieron las 32 métricas de filtros
-y Ramp y pasaron los tres controles Fourier. Las cuatro cifras de residuos
-DFT–FFT difirieron ligeramente de las originales. La diferencia máxima entre
-reconstrucciones fue aproximadamente `3.308286978e-11 HU`, frente a
-`3.342393029e-11 HU` de la ejecución original. No se modifican los cálculos ni
-la tolerancia estricta para forzar coincidencias. Por ello, la validación estricta
-puede devolver código de salida 1 aunque la equivalencia numérica se cumpla.
+El informe final utiliza las cuatro cifras de residuos DFT–FFT del cálculo
+Linux: `3.308e-11 HU`, `7.236e-13 HU`, `9.488e-13 HU` y `8.58e-13` en el
+sinograma filtrado. Estas referencias coinciden con las salidas guardadas en
+`outputs/`; las otras 32 métricas de filtros y Ramp se conservan. No se
+modifican los cálculos ni las tolerancias. En otro entorno, los residuos pueden
+variar ligeramente y la validación estricta puede devolver código de salida 1
+aunque se cumplan los tres controles de equivalencia Fourier.
 
 Las tablas originales están en `reference_outputs/tables/`.
-`config/report_reference.json` conserva las cifras publicadas. Los resultados
+`config/report_reference.json` conserva las cifras publicadas en el informe final. Los resultados
 actuales están en `outputs/` y el detalle de esta preparación en
 `PREPARACION_REPOSITORIO.md`. Una ejecución reemplaza sus salidas y notebooks,
 sin escribir en los DICOM ni en las referencias publicadas.
@@ -118,4 +118,3 @@ interpolación lineal, sigma 1 y SeedSequence(42).spawn(2).
 El ruido gaussiano adicional no se calibra a una dosis física y las entradas
 conservan el ruido del dataset. Un único corte no permite generalizar resultados
 clínicos. La amplificación visual no se aplica a las métricas.
-

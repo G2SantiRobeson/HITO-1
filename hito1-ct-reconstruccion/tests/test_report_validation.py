@@ -5,7 +5,7 @@ from unittest.mock import patch
 
 import numpy as np
 
-from src.report_validation import compare_rounded_value, evaluate_report_values, recompute_results, validate_current_report
+from src.report_validation import compare_rounded_value, evaluate_report_values, load_report_reference, recompute_results, validate_current_report
 
 
 class ReportValidation(unittest.TestCase):
@@ -17,8 +17,8 @@ class ReportValidation(unittest.TestCase):
 
     def test_zero_fourier_difference_does_not_match_nonzero_published_value(self):
         # np.allclose con su atol por defecto aceptaría cero; aquí debe fallar.
-        for value in ("3.342e-11", "7.289e-13", "9.590e-13", "8.69e-13"):
-            self.assertEqual(compare_rounded_value(value, 0)["status"], "failed")
+        for entry in load_report_reference()["fourier"]:
+            self.assertEqual(compare_rounded_value(entry["reported"], 0)["status"], "failed")
         for value in (None, float("nan"), float("inf")):
             self.assertEqual(compare_rounded_value("31.890", value)["status"], "failed")
 
@@ -62,4 +62,3 @@ class ReportValidation(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-

@@ -427,13 +427,12 @@
       "filter": "ramp",
       "metric": "maximo",
       "unit": "HU",
-      "reported": "3.342e-11",
+      "reported": "3.308e-11",
       "observed": 3.3082869776990265e-11,
-      "delta": -3.37130223009735e-13,
+      "delta": 2.869776990265e-15,
       "atol": 5e-15,
       "rtol": 0,
-      "status": "failed",
-      "reason": "La diferencia supera media unidad del último decimal publicado."
+      "status": "passed"
     },
     {
       "group": "fourier",
@@ -441,13 +440,12 @@
       "filter": "ramp",
       "metric": "media",
       "unit": "HU",
-      "reported": "7.289e-13",
+      "reported": "7.236e-13",
       "observed": 7.236043361724676e-13,
-      "delta": -5.2956638275324e-15,
+      "delta": 4.3361724676e-18,
       "atol": 5e-17,
       "rtol": 0,
-      "status": "failed",
-      "reason": "La diferencia supera media unidad del último decimal publicado."
+      "status": "passed"
     },
     {
       "group": "fourier",
@@ -455,13 +453,12 @@
       "filter": "ramp",
       "metric": "rmse",
       "unit": "HU",
-      "reported": "9.590e-13",
+      "reported": "9.488e-13",
       "observed": 9.487940765596969e-13,
-      "delta": -1.02059234403031e-14,
+      "delta": -5.9234403031e-18,
       "atol": 5e-17,
       "rtol": 0,
-      "status": "failed",
-      "reason": "La diferencia supera media unidad del último decimal publicado."
+      "status": "passed"
     },
     {
       "group": "fourier",
@@ -469,13 +466,12 @@
       "filter": "ramp",
       "metric": "maximo",
       "unit": "Suma Radon",
-      "reported": "8.69e-13",
+      "reported": "8.58e-13",
       "observed": 8.5804974236936e-13,
-      "delta": -1.095025763064e-14,
+      "delta": 4.974236936e-17,
       "atol": 5e-16,
       "rtol": 0,
-      "status": "failed",
-      "reason": "La diferencia supera media unidad del último decimal publicado."
+      "status": "passed"
     }
   ],
   "note": "La equivalencia Fourier se validó con validate.py. Las cuatro coincidencias literales se informan por separado y no se cuentan como aprobadas."

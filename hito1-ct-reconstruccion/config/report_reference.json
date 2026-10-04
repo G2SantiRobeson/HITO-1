@@ -1,6 +1,6 @@
 {
-  "source": "Resultados numéricos del informe actual proporcionados explícitamente por el autor en esta conversación; independientes de los CSV históricos del repositorio.",
-  "provided_date": "2026-10-01",
+  "source": "Resultados numéricos del informe final Mini_Tesis_Hito_1 (19), confirmados por el autor; independientes de las tablas históricas de reference_outputs.",
+  "provided_date": "2026-10-04",
   "case_order": ["sdct_sin_ruido", "ldct_sin_ruido", "sdct_gaussiano", "ldct_gaussiano"],
   "case_labels": {
     "sdct_sin_ruido": "SDCT sin ruido añadido",
@@ -22,10 +22,9 @@
     "ldct_gaussiano": {"MAE_HU": "79.012", "RMSE_HU": "99.700", "MAX_HU": "612.323"}
   },
   "fourier": [
-    {"stage": "reconstrucciones_HU", "metric": "maximo", "reported": "3.342e-11", "unit": "HU"},
-    {"stage": "reconstrucciones_HU", "metric": "media", "reported": "7.289e-13", "unit": "HU"},
-    {"stage": "reconstrucciones_HU", "metric": "rmse", "reported": "9.590e-13", "unit": "HU"},
-    {"stage": "sinogramas_filtrados", "metric": "maximo", "reported": "8.69e-13", "unit": "Suma Radon"}
+    {"stage": "reconstrucciones_HU", "metric": "maximo", "reported": "3.308e-11", "unit": "HU"},
+    {"stage": "reconstrucciones_HU", "metric": "media", "reported": "7.236e-13", "unit": "HU"},
+    {"stage": "reconstrucciones_HU", "metric": "rmse", "reported": "9.488e-13", "unit": "HU"},
+    {"stage": "sinogramas_filtrados", "metric": "maximo", "reported": "8.58e-13", "unit": "Suma Radon"}
   ]
 }
-

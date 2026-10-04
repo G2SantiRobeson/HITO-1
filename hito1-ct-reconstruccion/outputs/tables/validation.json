@@ -1,13 +1,81 @@
 {
+  "numerical_tests": 11,
+  "notebooks": [
+    {
+      "notebook": "01_ct_images_and_data.ipynb",
+      "code_cells": 4,
+      "inline_figures": 1
+    },
+    {
+      "notebook": "02_radon_and_sinograms.ipynb",
+      "code_cells": 3,
+      "inline_figures": 2
+    },
+    {
+      "notebook": "03_backprojection_and_fbp.ipynb",
+      "code_cells": 3,
+      "inline_figures": 1
+    },
+    {
+      "notebook": "04_sdct_ldct_photon_simulation.ipynb",
+      "code_cells": 3,
+      "inline_figures": 1
+    },
+    {
+      "notebook": "05_gaussian_noise_analysis.ipynb",
+      "code_cells": 4,
+      "inline_figures": 1
+    },
+    {
+      "notebook": "06_sdct_ldct_sinogram_comparison.ipynb",
+      "code_cells": 3,
+      "inline_figures": 8
+    },
+    {
+      "notebook": "07_fbp_filter_comparison.ipynb",
+      "code_cells": 3,
+      "inline_figures": 4
+    },
+    {
+      "notebook": "08_fourier_dft_vs_fft.ipynb",
+      "code_cells": 4,
+      "inline_figures": 3
+    },
+    {
+      "notebook": "09_metrics_and_report_figures.ipynb",
+      "code_cells": 3,
+      "inline_figures": 2
+    }
+  ],
+  "fourier_checks": {
+    "filtrado_equivalente": true,
+    "reconstruccion_equivalente": true,
+    "geometria_y_filtro_equivalentes_al_pipeline": true
+  },
+  "exported_figures": 23,
   "current_report": {
-    "status": "failed",
+    "status": "passed",
     "reference_values": 36,
-    "comparisons": 36,
-    "passed": 32,
-    "failed": 4,
+    "comparisons": 72,
+    "passed": 72,
+    "failed": 0,
     "sources": [
-      "saved"
+      "saved",
+      "recomputed"
     ],
     "report": "VALIDATION_REPORT.md"
+  },
+  "published_values": 12,
+  "historical_filters": {
+    "status": "unavailable",
+    "reason": "CSV histórico ausente."
+  },
+  "historical_photons": {
+    "status": "unavailable",
+    "reason": "Núcleo histórico ausente."
+  },
+  "historical_fourier": {
+    "status": "unavailable",
+    "reason": "Arrays Fourier históricos ausentes."
   }
 }

@@ -116,9 +116,9 @@ def write_validation_report(report):
              "y tolerancia absoluta igual a media unidad del último decimal publicado. "
              "Esto reconoce la precisión del informe; no supone igualdad con sus valores redondeados.", "",
              "- Métricas HU a tres decimales: 0.0005 HU.",
-             "- Máximo entre reconstrucciones 3.342e-11: 5e-15 HU.",
-             "- Media 7.289e-13 y RMSE 9.590e-13: 5e-17 HU.",
-             "- Máximo entre sinogramas filtrados 8.69e-13: 5e-16 en suma Radon, **no HU**.", "",
+             "- Máximo entre reconstrucciones 3.308e-11: 5e-15 HU.",
+             "- Media 7.236e-13 y RMSE 9.488e-13: 5e-17 HU.",
+             "- Máximo entre sinogramas filtrados 8.58e-13: 5e-16 en suma Radon, **no HU**.", "",
              "Los umbrales anteriores son independientes de las tolerancias generales predeterminadas de equivalencia "
              "DFT/FFT (atol=1e-9, rtol=1e-10) del experimento. Esos umbrales generales "
              "no se usan para aprobar coincidencia con estas cifras publicadas.", "",
@@ -199,4 +199,3 @@ def validate_current_report(*, recompute=False):
     save_json(report, ROOT / "outputs/tables/report_reference_validation.json")
     write_validation_report(report)
     return summary
-
